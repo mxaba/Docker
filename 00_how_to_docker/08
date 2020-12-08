@@ -1,0 +1,5 @@
+#/bin/sh is sh
+#--rm Automatically remove the container when it exits (docker run --help)
+#-i Interactive mode (Keep STDIN open even if not attached)
+
+docker pull alpine; docker run -it --rm alpine /bin/sh
